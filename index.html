@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+
+        <div class="header_navbar">
+            <nav class="navbar" id="navbar">
+                <div class="navbar__option navbar__option--init">
+                    <p>Inicio</p>
+                </div>
+                <div class="navbar__option navbar__option--mod">
+                    <p><a href="#treadment">Tratamientos</a></p>
+                </div>
+                <div class="navbar__option navbar__option--mod">
+                    <p><a href="#presentation">Quiénes somos</a></p>
+                </div>
+                <div class="navbar__option navbar__option--mod">
+                    <p><a href="#location">Ubicación</a></p>
+                </div>
+                <div class="navbar__option navbar__option--contact">
+                    <p><a href="#contact">Contáctanos</a></p>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header__social">
+            <a class="header_social_link" href="https://wa.me/+573156734843">
+                <img src="assets/whatsapp_icon.png" alt="">
+            </a>
+            <a class="header_social_link" href="https://www.instagram.com/eldermatologojose/">
+                <img src="assets/instagram_icon.png" alt="">
+            </a>
+            <a class="header_social_link" href="https://www.facebook.com/dermatologojoseramirez">
+                <img src="assets/facebook_icon.png" alt="">
+            </a>
+        </div>
+        <button class="menu_btn" id="menuBtn">≡</button>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner__container">
+                <div class="banner__text">
+                    <h1>Dr. José Luis Ramírez</h1>
+                    <h2>Dermatólogo</h2>
+                    <p>Soy José Luis Ramírez Osorio, colombiano nacido en Cartagena y criado en San Andrés Isla. A los 18 años inicié mis estudios de medicina en La Habana, Cuba, donde viví y me formé durante 12 años, me especialicé en Medicina Familiar y posteriormente en Dermatología. Tras completar mis estudios, regresé a Colombia donde me desempeñé como Dermatólogo y Coordinador del programa de Lepra del hospital universitario Centro Dermatológico Federico Lleras Acosta, profesor de la Universidad del Rosario y la Universidad Sanitas. </p>
+
+                    <div class="btn-schedule">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.2721 10.2721C16.2721 12.4813 14.4813 14.2721 12.2721 14.2721C10.063 14.2721 8.27214 12.4813 8.27214 10.2721C8.27214 8.06298 10.063 6.27212 12.2721 6.27212C14.4813 6.27212 16.2721 8.06298 16.2721 10.2721ZM14.2721 10.2721C14.2721 11.3767 13.3767 12.2721 12.2721 12.2721C11.1676 12.2721 10.2721 11.3767 10.2721 10.2721C10.2721 9.16755 11.1676 8.27212 12.2721 8.27212C13.3767 8.27212 14.2721 9.16755 14.2721 10.2721Z"
+                                fill="currentColor" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.79417 16.5183C2.19424 13.0909 2.05438 7.39409 5.48178 3.79417C8.90918 0.194243 14.6059 0.054383 18.2059 3.48178C21.8058 6.90918 21.9457 12.6059 18.5183 16.2059L12.3124 22.7241L5.79417 16.5183ZM17.0698 14.8268L12.243 19.8965L7.17324 15.0698C4.3733 12.404 4.26452 7.97318 6.93028 5.17324C9.59603 2.3733 14.0268 2.26452 16.8268 4.93028C19.6267 7.59603 19.7355 12.0268 17.0698 14.8268Z"
+                                fill="currentColor" />
+                        </svg>
+                        Villavicencio
+                    </div>
+
+                </div>
+                <div class="banner__image">
+                    <img src="assets/doctor_banner.png" alt="Imagen Dermatólogo" srcset="">
+                </div>
+            </div>
+        </section>
+
+        <section id="treadment" class="info-cards">
+            <div class="card">
+                <div class="card__title">
+                    <h3>Dermatología Clínica</h3>
+                </div>
+                <img src="assets/tratamiento1.jpeg" alt="Dermatología Clínica">
+                <div class="card__footer">
+                    <a href="#clinic">
+                    <p> Ver más</p>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                            fill="currentColor" />
+                    </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__title">
+                    <h3>Dermatología Estética</h3>
+                </div>
+                <img src="assets/tratamiento2.jpeg" alt="Dermatología Estética">
+                <div class="card__footer">
+                    <a href="#estetic">
+                    <p> Ver más</p>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                            fill="currentColor" />
+                    </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__title">
+                    <h3>Dermatología Quirúrgica</h3>
+                </div>
+                <img src="assets/tratamiento3.png" alt="Dermatología Quirúrgica">
+                <div class="card__footer">
+                    <a href="#quirurgic">
+                    <p> Ver más</p>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                            fill="currentColor" />
+                    </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="presentation" class="presentation">
+            <div class="presentation__container">
+                <div class="presentation__header">
+                    <div class="presentation__header__img">
+                        <img src="assets/doctor.png" alt="Doctor">
+                    </div>
+                    <div class="presentation__description">
+                        <div class="description__title">
+                            <p>Conoce al Doctor</p>
+                            <h3>Jose Luis Ramírez</h3>
+                        </div>
+                        <p>Estudios</p>
+                        <div class="footer__content">
+                            <ul>
+                                <li> <strong>Medicina General:</strong> Escuela Latinoamérica de Medicina, La Habana-Cuba (2006)</li>
+                                <li> <strong>Medicina Familiar:</strong> Escuela Latinoamérica de Medicina, Camagüey, Cuba (2008)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="presentation__footer">
+                    <div class="footer__description">
+                        <div class="footer__title">
+                            <p>Especialización</p>
+                        </div>
+                        <div class="footer__content">
+                            <ul>
+                                <li> <strong>Especialista en Dermatología:</strong> Escuela Latinoamérica de Medicina, Camagüey, Cuba (2012)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__img">
+                        <img src="assets/presentation.png" alt="Doctor">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="treadment">
+            <div class="treadment__container">
+                <div id="clinic" class="treadment__item">
+                    <div class="treadment__accordion">
+                        <div class="accordion__container">
+                            <div class="accordion__title">Dermatología Clínica</div>
+                            <button class="accordion">
+                                <span>Consulta por dermatología</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>En nuestra consulta dermatológica, te ofrecemos un diagnóstico profesional y tratamientos personalizados para cuidar la salud de tu piel. Desde afecciones comunes como: queratosis, dermatitis, alopecia, rosácea hasta problemas más complejos, nos enfocamos en brindarte soluciones efectivas para mantener tu piel saludable y radiante.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $190.000.
+                                </div>
+                            </div>
+
+                            <button class="accordion">
+                                <span>Tratamiento para el Acné</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>El acné es una de las afecciones cutáneas más comunes, que puede afectar tanto a adolescentes como a adultos. Se produce cuando los poros se obstruyen con sebo, células muertas y bacterias, resultando en espinillas, puntos negros y, en algunos casos, quistes. En nuestra consulta, te ofrecemos un enfoque personalizado para tratar y controlar el acné, utilizando tratamientos efectivos que se adaptan a tu tipo de piel y necesidades específicas. Juntos trabajaremos para mejorar la salud y apariencia de tu piel, devolviéndote la confianza que mereces.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $150,000 - $250,000 COP.
+                                </div>
+                            </div>
+
+                            <button class="accordion">
+                                <span>Control de Manchas</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>Las manchas en la piel, como las pecas, lentigos o manchas solares, son alteraciones comunes en el tono de la piel, que pueden aparecer por factores como el sol, el envejecimiento o cambios hormonales. En nuestra consulta, te ofrecemos un enfoque individualizado para tratar y reducir las manchas, utilizando tratamientos que se ajustan a tus necesidades y tipo de piel. Nuestro objetivo es lograr una piel más uniforme y radiante, restaurando su salud y belleza natural.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $150,000 - $250,000 COP.
+                                </div>
+                            </div>
+
+                            <button class="accordion">
+                                <span>Tratamiento para la Psoriais</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>La psoriasis es una enfermedad autoinmunitaria crónica que provoca la aparición de placas rojas y escamosas en la piel, especialmente en áreas como codos, rodillas y piel cabelluda. Aunque no tiene cura, existen tratamientos efectivos que pueden controlar los brotes y aliviar los síntomas. En nuestra consulta dermatológica, ofrecemos un enfoque integral y personalizado para gestionar la psoriasis, ayudando a reducir la inflamación, mejorar la salud de tu piel y prevenir futuras complicaciones. Trabajamos contigo para brindarte el mejor tratamiento y mejorar tu calidad de vida.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $150,000 - $250,000 COP.
+                                </div>
+                            </div>
+                    
+                        
+                        </div>
+                    </div>
+                    <div class="treadment__img">
+                        <img src="assets/treadment.png" alt="">
+                    </div>
+                </div>
+
+                <div id="estetic" class="treadment__item treadment__item--reverse">
+                    <div class="treadment__accordion">
+                        <div class="accordion__container">
+                            <div class="accordion__title">Dermatología Estética</div>
+                            <button class="accordion">
+                                <span>Toxina BotulÍnica</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>La toxina botulínica es un tratamiento que relaja los músculos faciales, reduciendo las arrugas y líneas de expresión, en áreas como la frente, entrecejo y patas de gallo. Es ideal para quienes buscan un aspecto más juvenil y fresco, sin cirugía. Los resultados son naturales y el tratamiento es rápido, con mínima recuperación. Te ayudamos a lograr una apariencia rejuvenecida y natural.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $960.000 COP.
+                                </div>
+                            </div>
+
+                            <button class="accordion">
+                                <span>Aplicación de Bioestimuladores y Rellenos con ácido Hialurónico</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>Son tratamientos diseñados para estimular la producción natural de colágeno en la piel, mejorando su firmeza y elasticidad. Por otro lado, los rellenos con ácido hialurónico ayudan a restaurar el volumen perdido y suavizar arrugas, proporcionando resultados inmediatos y naturales. Ambos tratamientos son opciones mínimamente invasivas que te ayudarán a rejuvenecer tu piel y lograr un aspecto más fresco y saludable.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $1.100.000 COP.
+                                </div>
+                            </div>
+
+                            <button class="accordion">
+                                <span>Peeling químico</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>Es un tratamiento dermatológico que utiliza soluciones químicas específicas para exfoliar las capas superficiales de la piel, eliminando impurezas y estimulando la regeneración celular. Ideal para tratar manchas, arrugas finas, acné y textura irregular, el peeling químico mejora la apariencia de la piel, dejándola más suave, radiante y rejuvenecida. Adaptamos el tratamiento a las necesidades de tu piel para obtener resultados seguros y efectivos.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $200.000 COP.
+                                </div>
+                            </div>
+
+                            <button class="accordion">
+                                <span>Laser de co2</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>Es un tratamiento avanzado que utiliza tecnología de luz para renovar la piel, eliminando capas superficiales dañadas y estimulando la producción de colágeno. Ideal para tratar arrugas, lunares, cicatrices y signos de envejecimiento, el láser CO2 mejora la textura y firmeza de la piel, dejándola más suave y rejuvenecida. Este procedimiento se adapta a tus necesidades, ofreciendo resultados visibles y duraderos con una recuperación controlada.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $350.000 COP.
+                                </div>
+                            </div>
+                    
+                        
+                        </div>
+                    </div>
+                    <div class="treadment__img">
+                        <img src="assets/treadment_2.png" alt="">
+                    </div>
+                </div>
+
+                <div id="quirurgic" class="treadment__item">
+                    <div class="treadment__accordion">
+                        <div class="accordion__container">
+                            <div class="accordion__title">Dermatología Quirúrgica</div>
+                            <button class="accordion">
+                                <span>Resecciones de tumores de piel y lunares</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>La resección de tumores de piel y lunares es un procedimiento quirúrgico realizado para eliminar formaciones benignas o sospechosas de malignidad en la piel. Utilizamos técnicas precisas y seguras para extirpar el área afectada, asegurando un diagnóstico adecuado y una recuperación rápida. Este procedimiento es clave para prevenir complicaciones y cuidar la salud de tu piel.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $490.000 COP.
+                                </div>
+                            </div>
+
+                            <button class="accordion">
+                                <span>Biopsias de piel</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>La biopsia de piel es un procedimiento diagnóstico que consiste en tomar una pequeña muestra de tejido cutáneo para examinarla en laboratorio. Se realiza para identificar posibles enfermedades de la piel, como cáncer, infecciones o trastornos inflamatorios. Este procedimiento es rápido, mínimamente invasivo y nos permite obtener un diagnóstico preciso para ofrecerte el tratamiento adecuado.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $490.000 COP.
+                                </div>
+                            </div>
+
+                            <button class="accordion">
+                                <span>Cauterización y crioterapia</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>La cauterización es un procedimiento que utiliza corriente alterna para eliminar tejidos dañados, verrugas, angiomas o fibromas laxos. Por otro lado, la crioterapia utiliza nitrógeno líquido para congelar y eliminar lesiones cutáneas benignas, como verrugas o manchas. Ambos tratamientos son rápidos, eficaces y mínimamente invasivos, permitiendo una recuperación rápida y resultados visibles.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $180.000 COP.
+                                </div>
+                            </div>
+
+                            <button class="accordion">
+                                <span>Infiltraciones</span>
+                                <div class="accordion__icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="panel">
+                                <p>Procedimiento que consiste en la aplicación de sustancias terapéuticas para el manejo de cicatrices hipertróficas, cicatriz queloide, alopecia areata, entre otras.</p>
+                                <p><strong>Duración: 30-40 minutos.</strong></p>
+
+                                <div class="panel__price">
+                                    Precio: $150.000 COP.
+                                </div>
+                            </div>
+                    
+                        
+                        </div>
+                    </div>
+                    <div class="treadment__img">
+                        <img src="assets/treadment_3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        
+            
+        </section>
+
+        <section class="stories">
+            <div class="stories_conteiner">
+                <p class="stories_subtitle">Conoce nuestros</p>
+                <p class="stories_title">Casos de éxito</p>
+
+                <div class="stories_cards">
+
+                    <div class="storie_card">
+                        <div class="storie_card_head">
+                            <div class="card_img">
+                                <img src="assets/storie1_before.png" alt="STORIE BEFORE">
+                                <p>Antes</p>
+                            </div>
+                            <div class="card_img">
+                                <img src="assets/storie1_after.png" alt="STORIE AFTER">
+                                <p>Después</p>
+                            </div>
+                            
+                        </div>
+                        <div class="storie_card_text">
+                            <p >"Llevaba años luchando con acné severo hasta que encontré al
+                                Dr. José Luis. Su tratamiento personalizado transformó mi piel
+                                y mi confianza. ¡Los resultados superaron mis expectativas!"</p>
+                            <p class="storie_text">— María Fernanda R., 28 años</p>
+                        </div>
+                    </div>
+
+                    <div class="storie_card">
+                        <div class="storie_card_head">
+                            <div class="card_img">
+                                <img src="assets/storie2_before.png" alt="STORIE BEFORE">
+                                <p>Antes</p>
+                            </div>
+                            <div class="card_img">
+                                <img src="assets/storie2_after.png" alt="STORIE AFTER">
+                                <p>Después</p>
+                            </div>
+                            
+                        </div>
+                        <div class="storie_card_text">
+                            <p >"Llevaba años luchando con acné severo hasta que encontré al
+                                Dr. José Luis. Su tratamiento personalizado transformó mi piel
+                                y mi confianza. ¡Los resultados superaron mis expectativas!"
+                            </p>
+                            <p class="storie_text">— María Fernanda R., 28 años</p>
+                        </div>
+                    </div>
+    
+                    <div class="storie_card">
+                        <div class="storie_card_head">
+                            <div class="card_img">
+                                <img src="assets/storie3_before.png" alt="STORIE BEFORE">
+                                <p>Antes</p>
+                            </div>
+                            <div class="card_img">
+                                <img src="assets/storie3_after.png" alt="STORIE AFTER">
+                                <p>Después</p>
+                            </div>
+                            
+                        </div>
+                        <div class="storie_card_text">
+                            <p >"Llevaba años luchando con acné severo hasta que encontré al
+                                Dr. José Luis. Su tratamiento personalizado transformó mi piel
+                                y mi confianza. ¡Los resultados superaron mis expectativas!"</p>
+                            <p class="storie_text">— María Fernanda R., 28 años</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact">
+            <div class="contact_text">
+                <h2 class="contact_title">Contáctanos</h2>
+                <p class="contact_subtitle">¿Tienes preguntas o deseas agendar una cita?</p>
+                <p class="contact_description">
+                    Estamos aquí para ayudarte. Comunícate con
+                    nosotros a través de nuestros canales de atención.
+                </p>
+
+                <div class="contact_info">
+                    <div class="contact_email">
+                        <svg
+                            width="50"
+                            height="50"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M3.00977 5.83789C3.00977 5.28561 3.45748 4.83789 4.00977 4.83789H20C20.5523 4.83789 21 5.28561 21 5.83789V17.1621C21 18.2667 20.1046 19.1621 19 19.1621H5C3.89543 19.1621 3 18.2667 3 17.1621V6.16211C3 6.11449 3.00333 6.06765 3.00977 6.0218V5.83789ZM5 8.06165V17.1621H19V8.06199L14.1215 12.9405C12.9499 14.1121 11.0504 14.1121 9.87885 12.9405L5 8.06165ZM6.57232 6.80554H17.428L12.7073 11.5263C12.3168 11.9168 11.6836 11.9168 11.2931 11.5263L6.57232 6.80554Z"
+                                fill="currentColor"
+                            />
+                        </svg>
+                        <span class="contact_email_text">dermatologojoseluisramirez@gmail.com</span>
+                    
+                    </div>
+
+                    <div class="contact_phone">
+                        <svg
+                            width="50"
+                            height="50"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                            <path
+                                d="M22 12C22 10.6868 21.7413 9.38647 21.2388 8.1731C20.7362 6.95996 19.9997 5.85742 19.0711 4.92896C18.1425 4.00024 17.0401 3.26367 15.8268 2.76123C14.6136 2.25854 13.3132 2 12 2V4C13.0506 4 14.0909 4.20703 15.0615 4.60889C16.0321 5.01099 16.914 5.60034 17.6569 6.34326C18.3997 7.08594 18.989 7.96802 19.391 8.93848C19.7931 9.90918 20 10.9495 20 12H22Z"
+                                fill="currentColor"
+                            />
+                            <path
+                                d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z"
+                                fill="currentColor"
+                            />
+                            <path
+                                d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z"
+                                fill="currentColor"
+                            />
+                            </svg>
+                            <div class="phone_content">
+                                <p> <strong>Teléfono fijo:</strong>  +57 (608) 6606363 </p>
+                                <p> <strong>Teléfono móvil:</strong> +57 315 6734843 </p>
+                            </div>
+                    </div>
+
+                    <div class="contact_social">
+                        <div class="header__social">
+                            <a class="header_social_link" href="https://wa.me/+573156734843">
+                                <img src="assets/whatsapp_icon.png" alt="">
+                            </a>
+                            <a class="header_social_link" href="https://www.instagram.com/eldermatologojose/">
+                                <img src="assets/instagram_icon.png" alt="">
+                            </a>
+                            <a class="header_social_link" href="https://www.facebook.com/dermatologojoseramirez">
+                                <img src="assets/facebook_icon.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+            <div class="contact_img">
+                <img src="assets/doctor_banner2.png" alt="Doctor">
+            </div>
+
+
+        </section>
+
+        <section id="location" class="location">
+            <div class="location_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.392998427776!2d-73.64190842528878!3d4.142861546241449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2de2f1596b87%3A0x14c2618548e9ede7!2sBarzal%20Alto%2C%20Cra.%2039%20%2332%20-%2027%2C%20Villavicencio%2C%20Meta!5e0!3m2!1ses!2sco!4v1756155563458!5m2!1ses!2sco" 
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+            <div class="location_direction">
+                <h2>Ubicación</h2>
+                <p>Barzal Alto, Cra. 39 #32 - 27</p>
+                <p>Villavicencio, Meta</p>
+                <div class="location_img">
+                    <div class="location_img_container">
+                        <img src="assets/location1.jpg" alt="location1">
+                    </div>
+                    
+                    <div class="location_img_container">
+                        <img src="assets/location3.jpg" alt="location2">
+                    </div>
+                    
+                    <div class="location_img_container">
+                        <img src="assets/location2.jpg" alt="location3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <img src="assets/logo_footer.png" alt="" srcset="">
+    </footer>
+
+</body>
+
+<script src="accordion.js"></script>
+
+</html>
