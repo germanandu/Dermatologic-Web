@@ -1,7 +1,7 @@
 
 :root {
-    --main-font: Segoe UI;
-    --primary-color: #7b7977;
+    --main-font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+    --primary-color: #5959579c;
 }
 
 
@@ -284,6 +284,7 @@ body {
 .footer__description {
     flex: 9;
     margin-top: 30px;
+    justify-content: center;
 }
 
 .footer__title {
@@ -373,7 +374,7 @@ body {
 }
 
 .accordion__title {
-    background-color: #7b7977;
+    background-color: var(--primary-color);
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -459,17 +460,19 @@ body {
 }
 
 .footer {
-    background: #7b7977;
+    background: var(--primary-color);
     color: white;
-    padding: 16px 86px;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer > img {
-    width: 300px;
-    height: 120px;
+    width: 200px;
+    height: 80px;
 }
 .stories {
-    background-color: #7b7977;
+    background-color: var(--primary-color);
 }
 
 .stories_container {
@@ -498,35 +501,43 @@ body {
 }
 
 .storie_card {
+    border-radius: 15px;
     flex: 1;
-    max-width: 350px;
-    background-color: #f5f1f1;
+    max-width: 400px;
+    background-color: #dcd9d9;
     padding: 8px 4px;
     margin: 16px;
 }
 
-.storie_card_head {
+.storie_card_body {
     display: flex;
     justify-content: center;
 }
 
-.storie_card_head > .card_img {
+.storie_card_body > .card_img {
     flex: 1;
-    
 }
 
-.storie_card_head > .card_img > img {
+.storie_card_body > .card_img > img {
     width: 170px;
     height: 170px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: var(--primary-color) 2px solid;
 }
 
-.storie_card_head > .card_img > p {
+.storie_card_head {
     text-align: center;
     font-size: 18px;
     font-weight: 900;
-    color: #7b7977;
+    color: var(--primary-color);
+}
+.storie_card_body > .card_img > p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--primary-color);
 }
 
 .storie_card_text {
@@ -654,7 +665,8 @@ body {
 
 .location_img_container > img {
     width: 200px;
-    max-height: 230px;
+    max-height: 300px;
+    border-radius: 10px;
 }
 
 .location_img_container {
@@ -689,6 +701,15 @@ body {
     .stories_cards {
         flex-direction: column;
         align-items: center;
+    }
+    .storie_card {
+        max-width: 90vw;
+    }
+    .storie_card_body > .card_img > img {
+        width: 170px;
+        height: 170px;
+        display: block;
+        margin: 10px 15px;
     }
 }
 /* Tablets y móviles (≤ 900px) */
@@ -899,7 +920,7 @@ body {
     }
     .location_img_container > img {
         width: 110px;
-        max-height: 120px;
+        max-height: 150px;
     }
     .location_direction > h2 {
         font-size: 18px;
@@ -913,5 +934,13 @@ body {
         padding: 6px 10px 10px 10px;
         left: 8px;
         bottom: 8px;
+    }
+}
+
+/* Móviles (≤ 600px) */
+@media (max-width: 436px) {
+    .storie_card_body > .card_img > img {
+        width: 120px;
+        height: 120px;
     }
 }
